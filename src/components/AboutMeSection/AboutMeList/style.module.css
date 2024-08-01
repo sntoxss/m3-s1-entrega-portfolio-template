@@ -1,0 +1,14 @@
+.aboutMeList{
+  display:grid;
+  grid-template-columns: 482px 2fr;
+  gap: 100px;
+  width: 1030px;
+  margin: 0 auto;
+}
+@media(max-width: 610px){
+  .aboutMeList{
+    display: flex;
+   flex-direction: column;
+   width: clamp(6.25rem, -5.945rem + 97.561vw, 31.25rem)
+  } 
+}

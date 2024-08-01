@@ -1,0 +1,26 @@
+.container{
+  padding-bottom: 160px;
+}
+.AboutMeSection{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  width: 1030px;
+  margin: 0 auto;
+  gap: 20px
+}
+.red{
+  color: var(--color-tertiary)
+}
+@media(max-width: 1110px){
+  .AboutMeSection{
+    width: 482px;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 610px){
+  
+  .AboutMeSection{
+  width: clamp(6.25rem, -5.945rem + 97.561vw, 31.25rem);
+  }
+}

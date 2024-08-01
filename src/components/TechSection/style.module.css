@@ -1,0 +1,51 @@
+.techSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 150px auto;
+  width: 1021px;
+}
+.paragraphTech{
+  font-size: 1rem;
+  color: var(--grey-3) 
+}
+.blockInformation{
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+  gap: 40px
+}
+@media(max-width: 1110px){
+  .techSection{
+    flex-direction: column;
+    gap: 90px;
+    width: 550px;
+  }
+  
+  .paragraphTech{
+    width: 299px;
+  } 
+  
+  .techList li{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+@media(max-width: 610px){
+  
+  .blockInformation{
+    width: clamp(6.25rem, -5.945rem + 97.561vw, 31.25rem);
+  }
+  .techSection{
+    width: clamp(6.25rem, -5.945rem + 97.561vw, 31.25rem);
+    
+  }
+  .techList{
+    justify-content: space-between;
+    gap: auto;
+  }
+  .blockInformation{
+  width: auto;
+  }
+}

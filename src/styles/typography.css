@@ -1,0 +1,32 @@
+
+.title{
+  font-weight: 700;
+}
+.title.h1{
+  font-size: 38px;
+}
+.title.hg{
+  font-size: 28px;
+}
+.title.bg{
+  font-size  : 24px;
+}
+.title.md{
+  font-size: 20px;
+}
+.title.sm{
+  font-size: 1rem;
+}
+
+.white{
+  color: white;
+}
+.grey{
+  color: var(--grey-3);
+}
+.grey-2{
+  color: #868E96;
+}
+.blue{
+  color: var(--color-primary);
+}

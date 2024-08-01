@@ -1,0 +1,58 @@
+*{
+  cursor:auto;
+}
+.aboutMeCard{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 28px;
+}
+.blockLanguage{
+  display: flex;
+  flex-direction: row;
+  gap: 30px
+}
+.blockLanguage p{
+  font-size: clamp(0.5rem, 0.402rem + 1.569vw, 1rem);;
+}
+.blockLanguage span{
+  font-size: clamp(0.563rem, 0.486rem + 1.02vw, 0.875rem);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+.projectPrincipal{
+  font-size: 1rem;
+  line-height: 28px;
+  
+}
+.blockButton{
+  display: flex;
+  gap: 30px;
+}
+.blockButton img{
+  cursor: pointer;
+}
+.blockButton button{
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+}
+.blockButton div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title{
+  font-size: clamp(1.563rem, 1.364rem + 2.653vw, 2.375rem);
+}
+@media(max-width: 610px){
+  .blockLanguage p{
+    width: clamp(6.25rem, -5.945rem + 97.561vw, 31.25rem)
+  }
+  .aboutMeCard{
+   width: clamp(0rem, -6.127rem + 98.039vw, 31.25rem);
+   margin: 0 auto;
+  }
+  
+}

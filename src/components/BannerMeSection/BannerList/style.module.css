@@ -1,0 +1,11 @@
+.technologieList{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+@media(max-width: 610px){
+  .technologieList{
+  gap: 25px
+  }
+
+}

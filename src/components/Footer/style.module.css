@@ -1,0 +1,77 @@
+.footer{
+  margin: 10px 0;
+  height: 170px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.blockPerson{
+  display: flex;
+  align-items: center;
+  gap: 55px
+}
+
+.blockPerson img{
+  height: 69px;
+  border-radius: 100%;
+}
+.blockText{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.linkedin{
+  background: var(--linkedin);
+}
+.linkedin img{
+  height: 18px;
+  width: 14px;
+}
+.instagram{
+  background: var(--instagram)
+}
+.instagram img{
+  width: 14px;
+  height: 18px;
+}
+.facebook{
+  background: var(--facebook);
+}
+.facebook img{
+  width: 10px;
+  height: 18px;
+}
+.blockSocialMedia{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.blockSocialMedia span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+}
+
+@media(max-width: 1110px){
+  .footer{
+    flex-direction: column;
+    height: auto;
+    padding: 90px;
+    gap: 60px;
+  }
+  .blockPerson{
+    gap: 0;
+    flex-direction: column;
+  }
+  .blockText{
+  align-items: center;
+  gap: 20px;
+  }
+}

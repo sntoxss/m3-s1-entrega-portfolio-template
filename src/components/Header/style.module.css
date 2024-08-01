@@ -1,0 +1,55 @@
+@import "../../styles/global.css";
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  border-bottom: 3px solid var(--color-primary);
+  align-items: center;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.nav{
+  height: 100%;
+}
+li{
+  cursor: pointer;
+}
+li:hover{
+  color: var(--grey-1);
+}
+li.select{
+  color: var(--grey-1);
+}
+.iconMenu{
+  display: none;
+}
+@media(max-width: 585px){
+  .iconMenu img{
+    width: 16px;
+    height: 21px;
+    cursor: pointer;
+  }
+  .iconMenu{
+    display: flex;
+    width: 46px;
+    height: 46px;
+    background: #121214;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .iconMenu:hover{
+  filter: brightness(110%);
+  box-shadow: 0 0 5px 1px var(--color-primary);
+  transition: 2s ease;
+  }
+  .menu{
+  display: none;
+  }
+}
